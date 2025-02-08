@@ -76,3 +76,6 @@ document.getElementById('add-todo-item').addEventListener('click', (evt) => {
 	window.localStorage.setItem('timer', JSON.stringify(timerJSON))
 	document.getElementById('todo-form').insertAdjacentHTML("beforebegin", timerTemplate({ name: name, period: period, last: date.toISOString()}, timerJSON.timer.length - 1))
 })
+
+// Refresh the dates at least every minute
+setInterval(() => {removeDomItems();renderAllItems()}, 60000);
