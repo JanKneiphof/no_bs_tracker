@@ -11,7 +11,8 @@ body {
   color: #999;
 }
 
-.todo-item {
+.todo-item,
+#todo-form {
   border: 0.25em solid #222;
   margin: 1em;
   padding: 0.5em;
@@ -53,4 +54,35 @@ body {
   width: 50%;
   background-color: #005500;
   padding: 0.5em;
+}
+
+.todo-item-input {
+  background-color: #222;
+  color: #999;
+}
+
+/* Button 12 from https://getcssscan.com/css-buttons-examples */
+
+/* CSS */
+#add-todo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  border: none;
+
+  background: #6e6d70;
+  color: #dfdedf;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#footer {
+  color: #888;
+  text-align: center;
+}
+
+a {
+  color: #aaa;
 }
