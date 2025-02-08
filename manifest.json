@@ -1,0 +1,14 @@
+{
+	"name": "No BS Tracker",
+	"short_name": "No BS",
+	"start_url": "/no_bs_tracker/index.html",
+	"icons": [
+		{
+			"src": "/no_bs_tracker/logo.png",
+			"sizes": "96x96",
+			"type": "image/png"
+		}
+	],
+	"display": "standalone",
+	"background_color": "black"
+}
